@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "assets": [
+    "skill:hexo-blog-post"
+  ],
+  "source_files": {
+    "skills/hexo-blog-post/SKILL.md": "72c11e016a7667424a23d91f9f65772ff6c912a5a212b3e7efb97e2b473eb50d",
+    "skills/hexo-blog-post/references/research-and-visuals.md": "4f9f49d74188a3905f166b6e5b2a7e8d5c89caa55602b8de34b58675de19c95e"
+  },
+  "files": {
+    "skills/hexo-blog-post/SKILL.md": "0306e258fbac01ee69bfe054fe553e3a63950a6d861a721ea3b90af81aa54ac4",
+    "skills/hexo-blog-post/references/research-and-visuals.md": "c752755c7d6cc9118ca2689bfe713d16b7899590980ef15e34e45f89b838687a"
+  },
+  "adaptations": [
+    "博客目录由使用者提供或从工作区定位",
+    "第三方入口不依赖私有资产库"
+  ]
+}
