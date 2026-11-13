@@ -2,6 +2,7 @@
   "schema_version": 2,
   "assets": [
     "skill:codebase-quality",
+    "skill:doc-governance",
     "skill:hexo-blog-post"
   ],
   "source_files": {
@@ -12,7 +13,10 @@
     "skills/codebase-quality/references/evaluation.md": "f76f6d082014d7b0496fd148bedc0e0d09a7aadea9f42c1fad066c667b05fbe8",
     "skills/codebase-quality/references/profiles/electron-vue.md": "e00428c631e9babb16baf1cdcf5e189a5da13d06a8e279506787c52ed6c8355d",
     "skills/codebase-quality/references/refactor-playbook.md": "7dfeb5fa98c5782e813291072e8b12e52cf4796e66a9940e1b00bc5fc65f4346",
-    "skills/codebase-quality/references/review-rubric.md": "79b93f468d98619f5517c394377f77f53a8a198769c77152e38b560c1509ebb6"
+    "skills/codebase-quality/references/review-rubric.md": "79b93f468d98619f5517c394377f77f53a8a198769c77152e38b560c1509ebb6",
+    "skills/doc-governance/SKILL.md": "9fc8b31905808717d14462cbc923491f1b4f23936502c772279bbfce9684cc44",
+    "skills/doc-governance/references/authority-and-verification.md": "7e2058123e37a751da3f6f559811350ace446f88d35552313a7766a693c9f569",
+    "skills/doc-governance/references/checks.md": "a56149c010c44ded35b578879b618b40a3fac28f90778a4a6c2264c800b692c1"
   },
   "files": {
     "skills/hexo-blog-post/SKILL.md": "0306e258fbac01ee69bfe054fe553e3a63950a6d861a721ea3b90af81aa54ac4",
@@ -22,18 +26,25 @@
     "skills/codebase-quality/references/evaluation.md": "f76f6d082014d7b0496fd148bedc0e0d09a7aadea9f42c1fad066c667b05fbe8",
     "skills/codebase-quality/references/profiles/electron-vue.md": "e00428c631e9babb16baf1cdcf5e189a5da13d06a8e279506787c52ed6c8355d",
     "skills/codebase-quality/references/refactor-playbook.md": "7dfeb5fa98c5782e813291072e8b12e52cf4796e66a9940e1b00bc5fc65f4346",
-    "skills/codebase-quality/references/review-rubric.md": "79b93f468d98619f5517c394377f77f53a8a198769c77152e38b560c1509ebb6"
+    "skills/codebase-quality/references/review-rubric.md": "79b93f468d98619f5517c394377f77f53a8a198769c77152e38b560c1509ebb6",
+    "skills/doc-governance/SKILL.md": "9fc8b31905808717d14462cbc923491f1b4f23936502c772279bbfce9684cc44",
+    "skills/doc-governance/references/authority-and-verification.md": "7e2058123e37a751da3f6f559811350ace446f88d35552313a7766a693c9f569",
+    "skills/doc-governance/references/checks.md": "a56149c010c44ded35b578879b618b40a3fac28f90778a4a6c2264c800b692c1"
   },
   "adaptations": [
     "只公开通用审查判据与技术栈适配；评测用例、夹具和运行证据留在私有库",
     "正文引用的上游固定版本与 third-party 登记可能不同，按正文实际链接登记",
+    "只公开检查清单与流程；评测用例引用私有夹具，不公开",
+    "来源标注已通用化，不含原项目名称与内部路径",
     "博客目录由使用者提供或从工作区定位",
     "第三方入口不依赖私有资产库"
   ],
   "source_packages": {
-    "skill:codebase-quality": "7b5658ff94d60c647da9c6bd7d5b773357ffe5d1d71390aa68de81097cd4e3d9"
+    "skill:codebase-quality": "7b5658ff94d60c647da9c6bd7d5b773357ffe5d1d71390aa68de81097cd4e3d9",
+    "skill:doc-governance": "935ac72a0c1876e389527ac9e4de566ff44ef7233648883cf73d27bbd29dbafd"
   },
   "reviews": {
-    "skill:codebase-quality": "e5f8b6cc70e8f43bf24620877c508eac3746112e03f2fc668edc5046564b4c4c"
+    "skill:codebase-quality": "e5f8b6cc70e8f43bf24620877c508eac3746112e03f2fc668edc5046564b4c4c",
+    "skill:doc-governance": "afbf493c88809de7a69a71b097667af534366f75d21b0c817952d5a9dd52806e"
   }
 }
