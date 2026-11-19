@@ -6,11 +6,11 @@
 
 | Skill | 用途 | 必要环境 |
 | --- | --- | --- |
-| [hexo-blog-post](skills/hexo-blog-post/SKILL.md) | 将项目经验、技术分析与复盘整理成 AsterXu Lab 博客文章，支持草稿、构建预览和按授权发布 | 已有 Hexo 博客、站点 `AGENTS.md` 与项目构建环境 |
+| [hexo-blog-post](skills/hexo-blog-post/SKILL.md) | 将项目经验、技术分析与复盘整理成 Hexo 博客文章，支持草稿、构建预览和按授权发布 | 已有 Hexo 博客、站点 `AGENTS.md` 与项目构建环境 |
 | [codebase-quality](skills/codebase-quality/SKILL.md) | 全库或模块级的代码质量审查、重复逻辑判断、边界拆分与分步重构 | 目标项目可运行的检查命令；只读审查不需要额外环境 |
 | [doc-governance](skills/doc-governance/SKILL.md) | 文档漂移修复、冗余精简与文档索引、权威边界检查 | 已有文档体系的目标项目；无额外运行环境 |
 
-Skill 不包含本机路径。博客 Skill 使用时提供实际博客目录，或在已有博客工作区调用；文章格式、分类、配图与部署目标由站点约定决定。写作请求不自动授权源码推送、图床上传或公网部署。
+Skill 不包含本机路径。博客 Skill 使用时提供实际博客目录，或在已有博客工作区调用；站点定位可保存在本机用户级配置（`~/.config/aster-xu-lab/hexo-blog-post.json`，Windows 为 `%APPDATA%\aster-xu-lab\hexo-blog-post.json`），该配置不随 Skill 分发。文章格式、分类、配图与部署目标由站点约定决定。写作请求不自动授权源码推送、图床上传或公网部署。
 
 审查与文档治理 Skill 默认只读：前者输出带证据的问题清单，后者区分「已确认漂移」与「待确认缺口」。两者都在用户明确授权后才修改，且保留原验证基线与已有编辑。
 

@@ -6,7 +6,7 @@
     "skill:hexo-blog-post"
   ],
   "source_files": {
-    "skills/hexo-blog-post/SKILL.md": "72c11e016a7667424a23d91f9f65772ff6c912a5a212b3e7efb97e2b473eb50d",
+    "skills/hexo-blog-post/SKILL.md": "6990932adac4d60e2ef948c5c8176ac909d5d10ec901528675fecfb6f32aa73c",
     "skills/hexo-blog-post/references/research-and-visuals.md": "4f9f49d74188a3905f166b6e5b2a7e8d5c89caa55602b8de34b58675de19c95e",
     "skills/codebase-quality/SKILL.md": "bbbdfdd4d3a6735aeb3c64c44c15e90cd192a6d1b5b0498298b68c67ff91425f",
     "skills/codebase-quality/references/boundary-and-reuse.md": "bdb701366663b206856c9e4bc4eed63958ada101d4aee4717f763b3962388e37",
@@ -16,10 +16,11 @@
     "skills/codebase-quality/references/review-rubric.md": "b52fa1dcc296eb253e28739e5da261425af0613df5566c1b4edfdd537be581bb",
     "skills/doc-governance/SKILL.md": "9fc8b31905808717d14462cbc923491f1b4f23936502c772279bbfce9684cc44",
     "skills/doc-governance/references/authority-and-verification.md": "7e2058123e37a751da3f6f559811350ace446f88d35552313a7766a693c9f569",
-    "skills/doc-governance/references/checks.md": "a56149c010c44ded35b578879b618b40a3fac28f90778a4a6c2264c800b692c1"
+    "skills/doc-governance/references/checks.md": "a56149c010c44ded35b578879b618b40a3fac28f90778a4a6c2264c800b692c1",
+    "skills/hexo-blog-post/references/configuration.md": "d80c0dfe99dd2b41193db15c2296f29f1b1d8aed9e9f2dd3da3e5e111cd258a8"
   },
   "files": {
-    "skills/hexo-blog-post/SKILL.md": "0306e258fbac01ee69bfe054fe553e3a63950a6d861a721ea3b90af81aa54ac4",
+    "skills/hexo-blog-post/SKILL.md": "6990932adac4d60e2ef948c5c8176ac909d5d10ec901528675fecfb6f32aa73c",
     "skills/hexo-blog-post/references/research-and-visuals.md": "c752755c7d6cc9118ca2689bfe713d16b7899590980ef15e34e45f89b838687a",
     "skills/codebase-quality/SKILL.md": "bbbdfdd4d3a6735aeb3c64c44c15e90cd192a6d1b5b0498298b68c67ff91425f",
     "skills/codebase-quality/references/boundary-and-reuse.md": "bdb701366663b206856c9e4bc4eed63958ada101d4aee4717f763b3962388e37",
@@ -29,7 +30,8 @@
     "skills/codebase-quality/references/review-rubric.md": "b52fa1dcc296eb253e28739e5da261425af0613df5566c1b4edfdd537be581bb",
     "skills/doc-governance/SKILL.md": "9fc8b31905808717d14462cbc923491f1b4f23936502c772279bbfce9684cc44",
     "skills/doc-governance/references/authority-and-verification.md": "7e2058123e37a751da3f6f559811350ace446f88d35552313a7766a693c9f569",
-    "skills/doc-governance/references/checks.md": "a56149c010c44ded35b578879b618b40a3fac28f90778a4a6c2264c800b692c1"
+    "skills/doc-governance/references/checks.md": "a56149c010c44ded35b578879b618b40a3fac28f90778a4a6c2264c800b692c1",
+    "skills/hexo-blog-post/references/configuration.md": "d80c0dfe99dd2b41193db15c2296f29f1b1d8aed9e9f2dd3da3e5e111cd258a8"
   },
   "adaptations": [
     "只公开通用审查判据与技术栈适配；评测用例、夹具和运行证据留在私有库",
@@ -41,10 +43,12 @@
   ],
   "source_packages": {
     "skill:codebase-quality": "b562f4791f2b080dc3696d3a42ca91b49d2524b0483b3641b64892011c1f92c5",
-    "skill:doc-governance": "935ac72a0c1876e389527ac9e4de566ff44ef7233648883cf73d27bbd29dbafd"
+    "skill:doc-governance": "935ac72a0c1876e389527ac9e4de566ff44ef7233648883cf73d27bbd29dbafd",
+    "skill:hexo-blog-post": "243e839a60af1d351b4a296828ce40de3b4119280fadcb153c90cd4b43cde936"
   },
   "reviews": {
     "skill:codebase-quality": "e5f8b6cc70e8f43bf24620877c508eac3746112e03f2fc668edc5046564b4c4c",
-    "skill:doc-governance": "afbf493c88809de7a69a71b097667af534366f75d21b0c817952d5a9dd52806e"
+    "skill:doc-governance": "afbf493c88809de7a69a71b097667af534366f75d21b0c817952d5a9dd52806e",
+    "skill:hexo-blog-post": "305448d4173a73390e2361ba349f96bf378dec63bbfa9d44655aace09f91d200"
   }
 }
