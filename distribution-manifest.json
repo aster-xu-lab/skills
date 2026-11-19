@@ -6,8 +6,8 @@
     "skill:hexo-blog-post"
   ],
   "source_files": {
-    "skills/hexo-blog-post/SKILL.md": "6990932adac4d60e2ef948c5c8176ac909d5d10ec901528675fecfb6f32aa73c",
-    "skills/hexo-blog-post/references/research-and-visuals.md": "4f9f49d74188a3905f166b6e5b2a7e8d5c89caa55602b8de34b58675de19c95e",
+    "skills/hexo-blog-post/SKILL.md": "5ec422bfccd9eea11497a23e4924a3f3179b8d0c62ef5c393c0062bed3f3d92a",
+    "skills/hexo-blog-post/references/research-and-visuals.md": "1bca923e423c1405c9d6eb9387109a6572a6c4568ce4142de6601de09bf404c3",
     "skills/codebase-quality/SKILL.md": "bbbdfdd4d3a6735aeb3c64c44c15e90cd192a6d1b5b0498298b68c67ff91425f",
     "skills/codebase-quality/references/boundary-and-reuse.md": "bdb701366663b206856c9e4bc4eed63958ada101d4aee4717f763b3962388e37",
     "skills/codebase-quality/references/evaluation.md": "7d06a060506140eb18e622c7582678b024493545d58ca441764999f373dcc60d",
@@ -20,8 +20,8 @@
     "skills/hexo-blog-post/references/configuration.md": "d80c0dfe99dd2b41193db15c2296f29f1b1d8aed9e9f2dd3da3e5e111cd258a8"
   },
   "files": {
-    "skills/hexo-blog-post/SKILL.md": "6990932adac4d60e2ef948c5c8176ac909d5d10ec901528675fecfb6f32aa73c",
-    "skills/hexo-blog-post/references/research-and-visuals.md": "c752755c7d6cc9118ca2689bfe713d16b7899590980ef15e34e45f89b838687a",
+    "skills/hexo-blog-post/SKILL.md": "5ec422bfccd9eea11497a23e4924a3f3179b8d0c62ef5c393c0062bed3f3d92a",
+    "skills/hexo-blog-post/references/research-and-visuals.md": "2a23559f0bacfffd4d05c6e312fb12a71d4af21af9430c6348460006bd73db3f",
     "skills/codebase-quality/SKILL.md": "bbbdfdd4d3a6735aeb3c64c44c15e90cd192a6d1b5b0498298b68c67ff91425f",
     "skills/codebase-quality/references/boundary-and-reuse.md": "bdb701366663b206856c9e4bc4eed63958ada101d4aee4717f763b3962388e37",
     "skills/codebase-quality/references/evaluation.md": "7d06a060506140eb18e622c7582678b024493545d58ca441764999f373dcc60d",
@@ -44,7 +44,7 @@
   "source_packages": {
     "skill:codebase-quality": "b562f4791f2b080dc3696d3a42ca91b49d2524b0483b3641b64892011c1f92c5",
     "skill:doc-governance": "935ac72a0c1876e389527ac9e4de566ff44ef7233648883cf73d27bbd29dbafd",
-    "skill:hexo-blog-post": "243e839a60af1d351b4a296828ce40de3b4119280fadcb153c90cd4b43cde936"
+    "skill:hexo-blog-post": "0e65fa3c8c59a43d8590bc7a4d862c148d1b84ba5eb0405ff3113c56360e1b95"
   },
   "reviews": {
     "skill:codebase-quality": "e5f8b6cc70e8f43bf24620877c508eac3746112e03f2fc668edc5046564b4c4c",
