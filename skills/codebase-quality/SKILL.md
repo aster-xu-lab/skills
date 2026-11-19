@@ -52,6 +52,8 @@ $ARGUMENTS
 
 读取 `references/review-rubric.md`，按审查轴输出 P0–P3 问题清单。
 
+需要独立审查视角时，读取 `references/roles/auditor.md` 并由通用子 Agent 执行；范围、快照和最终交付仍由主流程负责。
+
 ### 步骤 3：边界与复用判断（只读）
 
 读取 `references/boundary-and-reuse.md`，输出重构候选：收益 / 风险 / 影响面 / 验证方式。

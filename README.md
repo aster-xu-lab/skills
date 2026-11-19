@@ -28,8 +28,8 @@ Skill 不包含本机路径。博客 Skill 使用时提供实际博客目录，�
 
 本仓库只发布经过审核的分发产物；`distribution-manifest.json` 记录源文件哈希、公开文件哈希和适配说明。维护时从资产正本单向同步，不在安装副本分别修改。分发历史独立，不包含资产源仓库的历史或本机配置。
 
-- `hexo-blog-post` 由 AsterXu Lab 维护；参考文件保留外部研究方法和视觉工具的来源链接，不包含第三方 Skill 正文。配图和研究能力按任务使用宿主已有工具，安装本 Skill 不自动安装其他工具或配置模型后端。
-- `codebase-quality` 提炼自个人项目实践，并参考 superpowers、addyosmani 与 mattpocock 的固定版本；只提炼判断方法，不继承其自动委派、文件写入或发布动作。上游均为 MIT 许可。
+- `hexo-blog-post` 由 AsterXu Lab 维护；参考文件保留外部研究方法和视觉工具的来源链接，不包含第三方 Skill 正文。配图和研究能力按任务使用宿主已有工具，安装本 Skill 不自动安装其他工具或配置模型后端。Skill 内含主笔与独立审校的角色简报，需要时可委派通用子 Agent 执行；已安装同名 Agent 时优先使用。
+- `codebase-quality` 提炼自个人项目实践，并参考 superpowers、addyosmani 与 mattpocock 的固定版本；只提炼判断方法，不继承其自动委派、文件写入或发布动作。上游均为 MIT 许可。只读审查可委派内置的 auditor 角色简报执行，重构仍需明确授权。
 - `doc-governance` 提炼自个人文档治理实践，来源标注已通用化，不包含原项目名称与内部路径。
 
 ## 许可证
