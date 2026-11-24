@@ -24,7 +24,7 @@
     "skills/hexo-blog-post/references/roles/blog-editor.md": "ff6e503e71e65de123f7beaaf5daadb8c03f7a959430c27ad9b7f9f1f3460e83",
     "skills/hexo-blog-post/references/roles/technical-blog-writer.md": "9baf4a8ed1c43fbbe57ff5b2b8f6b5fd9f49dc61f3cac0b30dae40f6fb82160f",
     "skills/commit-history-review/SKILL.md": "a346f88637f456721417f2ba632d702d0be9bc2d36b3555e07fedd4613f968dc",
-    "skills/commit-history-review/references/review-axes.md": "6e571bf4a7e3d03b2515f2d19a3c12654ba58a83e6efe803e64697fa059a273d",
+    "skills/commit-history-review/references/review-axes.md": "2d6740fbad7ff2b3a824b228cbc17b534843056174c9b3e272a3161c9df75846",
     "skills/commit-history-review/references/state-and-output.md": "98ec24c7e688e448d331c58d03fc14feea2a720bee7f299f06f4022586c756db",
     "skills/skill-config-maintenance/SKILL.md": "623e75bb09c507d69bce6f939bb635465bc3be79d9fe53a135c9d698ccdb90ab",
     "skills/skill-config-maintenance/references/config-registry.json": "1705273865a26f25015645ab64376fef7c0bda41b5078b9ee0b8e601eb6fa8bc",
@@ -47,7 +47,7 @@
     "skills/hexo-blog-post/references/roles/blog-editor.md": "ff6e503e71e65de123f7beaaf5daadb8c03f7a959430c27ad9b7f9f1f3460e83",
     "skills/hexo-blog-post/references/roles/technical-blog-writer.md": "9baf4a8ed1c43fbbe57ff5b2b8f6b5fd9f49dc61f3cac0b30dae40f6fb82160f",
     "skills/commit-history-review/SKILL.md": "d1eeb7446b744bfc4cc20395cc3cd274af1f746768c3b667f6597a59eab30ee9",
-    "skills/commit-history-review/references/review-axes.md": "fcae661b0c68cff88cd4445e645cf4a4eb4abaafe53b2e21afee17b8fb869cc6",
+    "skills/commit-history-review/references/review-axes.md": "a2273be53ca8a7ea656392436944b70ee11c4a1af520e388b0040f9cdf076d0f",
     "skills/commit-history-review/references/state-and-output.md": "f99111a1a3edf6bd669d958af52ab53d9acfd4554407871a58baf5e1efcb8fa3",
     "skills/skill-config-maintenance/SKILL.md": "623e75bb09c507d69bce6f939bb635465bc3be79d9fe53a135c9d698ccdb90ab",
     "skills/skill-config-maintenance/references/config-registry.json": "1705273865a26f25015645ab64376fef7c0bda41b5078b9ee0b8e601eb6fa8bc",
@@ -70,7 +70,7 @@
     "skill:codebase-quality": "587d133c9ce7ffaeaf51aaf2a1a621f1782a6474a4505b8c6976bcb7fbf78049",
     "skill:doc-governance": "935ac72a0c1876e389527ac9e4de566ff44ef7233648883cf73d27bbd29dbafd",
     "skill:hexo-blog-post": "6e028b206f190ef1e62e14c8834a658b195015cef9d6f050f0f44ad5551e2a0f",
-    "skill:commit-history-review": "05231a0c560243a8c8b6b0b1918f339dc6f3e16975fd1ce28cc0faf9e5e9b43a",
+    "skill:commit-history-review": "9bfc74a6655882316a7f47c5c451e51a9a71449bca21b2c2f73a8282dd5aa0e6",
     "skill:skill-config-maintenance": "67992b15289972791dd21cf237c206f5bad63c0dd00eee2391fde002d3181bc3"
   },
   "reviews": {
