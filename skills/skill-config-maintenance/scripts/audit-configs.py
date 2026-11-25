@@ -8,7 +8,6 @@ import stat
 import sys
 from pathlib import Path
 
-DEFAULT_INSTALLED = Path.home() / '.cc-switch' / 'skills'
 DEFAULT_REGISTRY = Path(__file__).resolve().parent.parent / 'references' / 'config-registry.json'
 
 
@@ -119,7 +118,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', help='配置目录；默认按平台解析')
     parser.add_argument('--registry', default=str(DEFAULT_REGISTRY), help='配置注册表 JSON')
-    parser.add_argument('--installed-root', help='已安装 Skill 目录；传空字符串表示不检查')
+    parser.add_argument('--installed-root', help='已安装 Skill 目录；不传则该次审计不检查安装状态')
     parser.add_argument('--json', action='store_true', help='输出 JSON')
     parser.add_argument('--archive-dir', help='删除前归档目录')
     parser.add_argument('--delete', action='store_true', help='删除显式指定的配置文件')
@@ -131,10 +130,7 @@ def main():
     try:
         root = resolve_root(args.root)
         by_file, registry_path = load_registry(args.registry)
-        if args.installed_root == '':
-            installed_root = None
-        else:
-            installed_root = Path(args.installed_root).expanduser() if args.installed_root else DEFAULT_INSTALLED
+        installed_root = Path(args.installed_root).expanduser() if args.installed_root else None
         results = audit(root, by_file, installed_root)
         deleted = []
         if args.delete:

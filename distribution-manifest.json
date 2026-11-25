@@ -19,16 +19,16 @@
     "skills/doc-governance/SKILL.md": "9fc8b31905808717d14462cbc923491f1b4f23936502c772279bbfce9684cc44",
     "skills/doc-governance/references/authority-and-verification.md": "7e2058123e37a751da3f6f559811350ace446f88d35552313a7766a693c9f569",
     "skills/doc-governance/references/checks.md": "a56149c010c44ded35b578879b618b40a3fac28f90778a4a6c2264c800b692c1",
-    "skills/hexo-blog-post/references/configuration.md": "fd368a3c960f68c33eb78cef34d4717785177f80e6d7f0ebe062155ba3534417",
+    "skills/hexo-blog-post/references/configuration.md": "8532f711c29a2bb29f31bfe37635c07def3cf02d788b1e2b766804b038ef2291",
     "skills/codebase-quality/references/roles/auditor.md": "6f89958c7449ac5a529f2d4a9cc400fdaf180ef214607dc3afa8ec0fe0868e46",
     "skills/hexo-blog-post/references/roles/blog-editor.md": "ff6e503e71e65de123f7beaaf5daadb8c03f7a959430c27ad9b7f9f1f3460e83",
     "skills/hexo-blog-post/references/roles/technical-blog-writer.md": "9baf4a8ed1c43fbbe57ff5b2b8f6b5fd9f49dc61f3cac0b30dae40f6fb82160f",
     "skills/commit-history-review/SKILL.md": "a346f88637f456721417f2ba632d702d0be9bc2d36b3555e07fedd4613f968dc",
     "skills/commit-history-review/references/review-axes.md": "2d6740fbad7ff2b3a824b228cbc17b534843056174c9b3e272a3161c9df75846",
     "skills/commit-history-review/references/state-and-output.md": "98ec24c7e688e448d331c58d03fc14feea2a720bee7f299f06f4022586c756db",
-    "skills/skill-config-maintenance/SKILL.md": "623e75bb09c507d69bce6f939bb635465bc3be79d9fe53a135c9d698ccdb90ab",
+    "skills/skill-config-maintenance/SKILL.md": "62ae1e9be854a3b0e3253c3c5fec86166ae7028100dccc8a3dd627da770f66fe",
     "skills/skill-config-maintenance/references/config-registry.json": "1705273865a26f25015645ab64376fef7c0bda41b5078b9ee0b8e601eb6fa8bc",
-    "skills/skill-config-maintenance/scripts/audit-configs.py": "b7288513101d025f046390bd34fb510b2ce2c6df7bca67ded486756dc2e370c3"
+    "skills/skill-config-maintenance/scripts/audit-configs.py": "56854b5155eb1d1e14e3e84815c8e0ff1c5ceaa2797235713c977d0bcfcea34f"
   },
   "files": {
     "skills/hexo-blog-post/SKILL.md": "916b3798c6f283d2a69a0a5adda3f6d6c538242e5fae61cc131d3a0872332669",
@@ -42,16 +42,16 @@
     "skills/doc-governance/SKILL.md": "9fc8b31905808717d14462cbc923491f1b4f23936502c772279bbfce9684cc44",
     "skills/doc-governance/references/authority-and-verification.md": "7e2058123e37a751da3f6f559811350ace446f88d35552313a7766a693c9f569",
     "skills/doc-governance/references/checks.md": "a56149c010c44ded35b578879b618b40a3fac28f90778a4a6c2264c800b692c1",
-    "skills/hexo-blog-post/references/configuration.md": "fd368a3c960f68c33eb78cef34d4717785177f80e6d7f0ebe062155ba3534417",
+    "skills/hexo-blog-post/references/configuration.md": "8532f711c29a2bb29f31bfe37635c07def3cf02d788b1e2b766804b038ef2291",
     "skills/codebase-quality/references/roles/auditor.md": "6f89958c7449ac5a529f2d4a9cc400fdaf180ef214607dc3afa8ec0fe0868e46",
     "skills/hexo-blog-post/references/roles/blog-editor.md": "ff6e503e71e65de123f7beaaf5daadb8c03f7a959430c27ad9b7f9f1f3460e83",
     "skills/hexo-blog-post/references/roles/technical-blog-writer.md": "9baf4a8ed1c43fbbe57ff5b2b8f6b5fd9f49dc61f3cac0b30dae40f6fb82160f",
     "skills/commit-history-review/SKILL.md": "d1eeb7446b744bfc4cc20395cc3cd274af1f746768c3b667f6597a59eab30ee9",
     "skills/commit-history-review/references/review-axes.md": "a2273be53ca8a7ea656392436944b70ee11c4a1af520e388b0040f9cdf076d0f",
     "skills/commit-history-review/references/state-and-output.md": "f99111a1a3edf6bd669d958af52ab53d9acfd4554407871a58baf5e1efcb8fa3",
-    "skills/skill-config-maintenance/SKILL.md": "623e75bb09c507d69bce6f939bb635465bc3be79d9fe53a135c9d698ccdb90ab",
+    "skills/skill-config-maintenance/SKILL.md": "62ae1e9be854a3b0e3253c3c5fec86166ae7028100dccc8a3dd627da770f66fe",
     "skills/skill-config-maintenance/references/config-registry.json": "1705273865a26f25015645ab64376fef7c0bda41b5078b9ee0b8e601eb6fa8bc",
-    "skills/skill-config-maintenance/scripts/audit-configs.py": "b7288513101d025f046390bd34fb510b2ce2c6df7bca67ded486756dc2e370c3"
+    "skills/skill-config-maintenance/scripts/audit-configs.py": "56854b5155eb1d1e14e3e84815c8e0ff1c5ceaa2797235713c977d0bcfcea34f"
   },
   "adaptations": [
     "只公开通用审查判据与技术栈适配；评测用例、夹具和运行证据留在私有库",
@@ -64,20 +64,20 @@
     "博客目录由使用者提供或从工作区定位",
     "第三方入口不依赖私有资产库",
     "显式调用；默认只读；删除需逐文件确认、先归档并保留备份",
-    "不清理 CC Switch 数据库、应用缓存或 dotfiles"
+    "不清理 Skill 管理工具的数据库、应用缓存或 dotfiles"
   ],
   "source_packages": {
     "skill:codebase-quality": "587d133c9ce7ffaeaf51aaf2a1a621f1782a6474a4505b8c6976bcb7fbf78049",
     "skill:doc-governance": "935ac72a0c1876e389527ac9e4de566ff44ef7233648883cf73d27bbd29dbafd",
-    "skill:hexo-blog-post": "6e028b206f190ef1e62e14c8834a658b195015cef9d6f050f0f44ad5551e2a0f",
+    "skill:hexo-blog-post": "864bf2ec14b0497b998a5b1ba033abd09ec1650fafd5b40471db0013a2a4f98e",
     "skill:commit-history-review": "9bfc74a6655882316a7f47c5c451e51a9a71449bca21b2c2f73a8282dd5aa0e6",
-    "skill:skill-config-maintenance": "67992b15289972791dd21cf237c206f5bad63c0dd00eee2391fde002d3181bc3"
+    "skill:skill-config-maintenance": "05d988d576b3ec791d8aec3acbb4d5d8e76756135451f513d32139bef2b5f165"
   },
   "reviews": {
     "skill:codebase-quality": "60227e7c2a64c9df4d426bc3a1957624058bac428f4768f0c2ea365bc3cbde18",
     "skill:doc-governance": "afbf493c88809de7a69a71b097667af534366f75d21b0c817952d5a9dd52806e",
     "skill:hexo-blog-post": "2e7dfa73c5b126fe20335b3c21bd01a0ac3a25d7ed1a80ec1015daa3cf9bb28a",
     "skill:commit-history-review": "cd692943c1280881c5bf5ce0120a74f0dff64d068ac8d8c3bddd9f983ca5aadd",
-    "skill:skill-config-maintenance": "96ddd0cfa231d95f0408afbff46f266fb10bc721139229d00e476bcb2db443c5"
+    "skill:skill-config-maintenance": "04a99b26c27d9c51c4813eef25cecd23db4db0a767866531394fe92a9210ca8e"
   }
 }

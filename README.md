@@ -1,6 +1,6 @@
 # AsterXu Lab Skills
 
-用于 CC Switch 发现、安装和更新的公开 Skill 仓库。
+公开的通用 Skill 仓库，按标准 `SKILL.md` 目录格式分发，可由支持该格式的宿主或管理工具发现、安装和更新。
 
 ## 当前 Skill
 
@@ -27,17 +27,17 @@ Skill 不包含本机路径。博客 Skill 使用时提供实际博客目录，�
 
 - 默认只读，按注册表与安装目录区分已安装、孤立候选、未登记、JSON 损坏、schema 不匹配与软链。
 - 删除必须显式指定文件、先归档并确认；已安装 Skill 的配置需要再次确认，软链不自动删除。
-- 不清理 CC Switch 数据库、应用缓存或其他目录。
+- 不清理 Skill 管理工具的数据库、应用缓存或其他目录。
 
-## CC Switch 安装与更新
+## 安装与更新
 
-1. 在 Skill 页面打开仓库管理，添加 `aster-xu-lab/skills`，分支填写 `main`。
-2. 在发现页找到需要的 Skill，安装并启用需要的宿主。
-3. 后续通过“检查更新”扫描源内容，再执行单项或批量更新。
+Skill 采用标准 `SKILL.md` 目录格式，可放入宿主的 Skill 目录（如 Claude Code 的 `~/.claude/skills/`、Codex 的 `~/.codex/skills/`），也可通过支持该格式的管理工具安装和更新。
+
+使用 Skill 管理工具时，在其仓库或源管理入口添加 `aster-xu-lab/skills`，分支填写 `main`，在发现页安装需要的 Skill 并启用所需宿主，后续用“检查更新”扫描源内容再执行更新。
 
 仓库地址：[https://github.com/aster-xu-lab/skills](https://github.com/aster-xu-lab/skills)。
 
-如果已有同名 Skill 仍关联旧源，通过 CC Switch 重新关联到本仓库并核对来源。添加仓库本身不改变既有安装的更新源。CC Switch 按内容 SHA-256 检测变化；更新会替换安装目录，先处理安装副本中的个人改动。具体入口以使用中的 CC Switch 版本为准，见 [官方 Skill 管理手册](https://github.com/farion1231/cc-switch/blob/main/docs/user-manual/en/3-extensions/3.3-skills.md)。
+如果已有同名 Skill 仍关联旧源，通过所用管理工具重新关联到本仓库并核对来源；添加仓库本身不改变既有安装的更新源。管理工具通常按内容哈希检测变化，更新会替换安装目录，先处理安装副本中的个人改动。具体入口以所用工具版本为准。
 
 ## 来源与维护
 
@@ -55,4 +55,4 @@ Skill 不包含本机路径。博客 Skill 使用时提供实际博客目录，�
 
 ## 验证边界
 
-已完成公开内容适配和结构、引用检查；代码审查、文档治理、提交历史回顾、配置审计与删除流程在真实项目中的效果、宿主自动路由与跨宿主行为尚未验证。配置维护在真实用户配置目录、Windows、dotfiles 软链与 CC Switch 安装副本上尚未验证。
+已完成公开内容适配和结构、引用检查；代码审查、文档治理、提交历史回顾、配置审计与删除流程在真实项目中的效果、宿主自动路由与跨宿主行为尚未验证。配置维护在真实用户配置目录、Windows、dotfiles 软链与 Skill 管理工具的安装副本上尚未验证。

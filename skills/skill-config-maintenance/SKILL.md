@@ -1,6 +1,6 @@
 ---
 name: skill-config-maintenance
-description: 审计并安全清理公开分发 Skill 留下的外置配置；默认只读，删除需显式指定文件、备份与确认。仅处理 ~/.config/aster-xu-lab 下的 Skill 配置，不清理 CC Switch 数据库、应用缓存或 dotfiles。触发词：清理 skill 配置、外置配置目录、配置审计、config cleanup、skill config maintenance。
+description: 审计并安全清理公开分发 Skill 留下的外置配置；默认只读，删除需显式指定文件、备份与确认。仅处理 ~/.config/aster-xu-lab 下的 Skill 配置，不清理 Skill 管理工具的数据库、应用缓存或 dotfiles。触发词：清理 skill 配置、外置配置目录、配置审计、config cleanup、skill config maintenance。
 disable-model-invocation: true
 ---
 
@@ -22,7 +22,7 @@ $ARGUMENTS
 
 不适用：
 
-- 清理 CC Switch 数据库、安装副本、宿主缓存或项目目录。
+- 清理 Skill 管理工具的数据库、安装副本、宿主缓存或项目目录。
 - 卸载 Skill、修改 Skill 内容或迁移业务配置。
 - 自动批量删除目录，或处理 `aster-xu-lab` 之外的文件。
 
@@ -32,7 +32,7 @@ $ARGUMENTS
 2. **删除三条件**：用户显式指定文件名、先归档、再用 `--yes` 确认。缺一项就停止。
 3. **已安装 Skill 的配置不直接删**：脚本拒绝；只有用户再次确认并显式加 `--force` 才允许。
 4. **软链不自动处理**：可能是 dotfiles 管理；报告后由用户自行决定，脚本拒绝自动删除。
-5. **只扫描配置根目录的顶层 `*.json`**：不递归、不扫描其他目录、不读 CC Switch 数据库。
+5. **只扫描配置根目录的顶层 `*.json`**：不递归、不扫描其他目录、不读 Skill 管理工具的数据库。
 6. **报告不打印配置值**：不输出站点路径、仓库路径、token 或提交内容；只报告文件名、状态、权限与原因。
 7. **未登记文件只报告**：不因文件名陌生就删除；用户显式选择后才处理。
 8. **删除后复跑审计**：确认剩余文件状态，归档路径写入清理记录。
@@ -54,7 +54,7 @@ $ARGUMENTS
 python3 scripts/audit-configs.py --json
 ```
 
-需要显式指定路径时：
+默认不检查安装目录；需要判断孤立残留时，把所用管理工具的安装目录传给 `--installed-root`。需要显式指定路径时：
 
 ```bash
 python3 scripts/audit-configs.py --root <配置目录> --installed-root <已安装 Skill 目录> --json
@@ -134,7 +134,7 @@ python3 scripts/audit-configs.py \
 
 - 不执行 `rm -rf` 或清空目录。
 - 不自动清理、不批量删除、不默认全选。
-- 不处理 CC Switch 数据库、安装副本、宿主缓存、项目文件或 dotfiles 同步逻辑。
+- 不处理 Skill 管理工具的数据库、安装副本、宿主缓存、项目文件或 dotfiles 同步逻辑。
 - 不把静态审计写成“配置已安全”的保证；删除前仍需用户确认。
 
 ## 与公开分发的关系
