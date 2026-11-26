@@ -1,6 +1,8 @@
 ---
 name: commit-history-review
 description: 回顾审查已提交的 Git 历史，支持时间窗口、距上次审查的增量和单个提交；输出质量评估、证据化问题、启示与延伸动作。只读，不修改代码。不适用于未提交 diff、PR、全库或模块质量审查、单个 Java 文件深度审查。触发词：看看最近提交、昨天今天的改动、上个会话之后的提交、最新提交质量、提交回顾、增量审查、commit review、review recent commits。
+metadata:
+  version: "0.0.1"
 ---
 
 # 提交历史回顾审查

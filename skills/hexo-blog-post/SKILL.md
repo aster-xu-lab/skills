@@ -1,6 +1,8 @@
 ---
 name: hexo-blog-post
 description: 将当前项目或对话中的经验、技术分析和复盘整理成 Hexo 博客文章，支持文章草稿、构建预览与按授权发布；先定位目标站点并读取其 AGENTS.md 与配置，不硬编码具体站点规则。触发词：写博客、发到我的博客、Hexo 博客、blog post
+metadata:
+  version: "0.0.1"
 ---
 
 # Hexo 博客投稿入口

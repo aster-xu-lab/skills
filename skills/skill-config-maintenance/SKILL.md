@@ -2,6 +2,8 @@
 name: skill-config-maintenance
 description: 审计并安全清理公开分发 Skill 留下的外置配置；默认只读，删除需显式指定文件、备份与确认。仅处理 ~/.config/aster-xu-lab 下的 Skill 配置，不清理 Skill 管理工具的数据库、应用缓存或 dotfiles。触发词：清理 skill 配置、外置配置目录、配置审计、config cleanup、skill config maintenance。
 disable-model-invocation: true
+metadata:
+  version: "0.0.1"
 ---
 
 # Skill 外置配置审计与清理
