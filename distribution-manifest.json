@@ -8,8 +8,8 @@
     "skill:skill-config-maintenance"
   ],
   "source_files": {
-    "skills/hexo-blog-post/SKILL.md": "f70b930d447291469f60c305e39c8a59cc3ca83f18266565924295ae922c37ae",
-    "skills/hexo-blog-post/references/research-and-visuals.md": "1bca923e423c1405c9d6eb9387109a6572a6c4568ce4142de6601de09bf404c3",
+    "skills/hexo-blog-post/SKILL.md": "c67a5ee666121454b1f3e472df4d2f8cb56fc5b8bfac71aeacb837b4ab9731da",
+    "skills/hexo-blog-post/references/research-and-visuals.md": "08f8ed6dfd8db195514de5e886cff116a339c30d0ea244038aabb0ce65af83b9",
     "skills/codebase-quality/SKILL.md": "d5edce45273b17d94dcf6eb657fffe0f03c2b2b565b6af612ddc624391bbe20a",
     "skills/codebase-quality/references/boundary-and-reuse.md": "bdb701366663b206856c9e4bc4eed63958ada101d4aee4717f763b3962388e37",
     "skills/codebase-quality/references/evaluation.md": "7d06a060506140eb18e622c7582678b024493545d58ca441764999f373dcc60d",
@@ -31,8 +31,8 @@
     "skills/skill-config-maintenance/scripts/audit-configs.py": "56854b5155eb1d1e14e3e84815c8e0ff1c5ceaa2797235713c977d0bcfcea34f"
   },
   "files": {
-    "skills/hexo-blog-post/SKILL.md": "f70b930d447291469f60c305e39c8a59cc3ca83f18266565924295ae922c37ae",
-    "skills/hexo-blog-post/references/research-and-visuals.md": "2a23559f0bacfffd4d05c6e312fb12a71d4af21af9430c6348460006bd73db3f",
+    "skills/hexo-blog-post/SKILL.md": "c67a5ee666121454b1f3e472df4d2f8cb56fc5b8bfac71aeacb837b4ab9731da",
+    "skills/hexo-blog-post/references/research-and-visuals.md": "797c98e2358d83dac82a7a9769f29d619e2c252d8c2de8b79a061173935b3982",
     "skills/codebase-quality/SKILL.md": "9695efb82bd2f4a2faa46d9a14dc5ee1b629770a4b19c106016350711e6c9af5",
     "skills/codebase-quality/references/boundary-and-reuse.md": "bdb701366663b206856c9e4bc4eed63958ada101d4aee4717f763b3962388e37",
     "skills/codebase-quality/references/evaluation.md": "7d06a060506140eb18e622c7582678b024493545d58ca441764999f373dcc60d",
@@ -69,7 +69,7 @@
   "source_packages": {
     "skill:codebase-quality": "a99847ad2d952e01bf0c2d5f66c231535d56245ad95e8652f4c8c33da750172b",
     "skill:doc-governance": "0875c3fa69a6d18849a2d2ade45de4684ac5f132509de06c256b8264da2ddf78",
-    "skill:hexo-blog-post": "a4b2f1fe5b0fb689319d6a60eaf7d0fe544fa4b34b2adaee263c6b21d8130068",
+    "skill:hexo-blog-post": "cfbdd08344595fa97db8910194efc8c34b4f11a5c161e11906cc5849471b701d",
     "skill:commit-history-review": "38ff2547e219b7a2100a79e76c6cc609dc6ca74f96dbf9ebfdd11373fb7e7dc7",
     "skill:skill-config-maintenance": "8d43e89de658eb62e39249e4aec299b443e56914fc510e96233a44603afbd55f"
   },
@@ -84,7 +84,7 @@
     "skill:codebase-quality": "0.0.1",
     "skill:commit-history-review": "0.0.1",
     "skill:doc-governance": "0.0.1",
-    "skill:hexo-blog-post": "0.0.1",
+    "skill:hexo-blog-post": "0.0.2",
     "skill:skill-config-maintenance": "0.0.1"
   }
 }
