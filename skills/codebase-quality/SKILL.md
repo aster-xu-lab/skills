@@ -2,7 +2,7 @@
 name: codebase-quality
 description: 全库或模块级的代码质量审查、重复逻辑判断、边界拆分与分步重构。审查时只读并给出证据；明确授权重构时在指定范围内实施，保留验证基线。单个 diff、单文件审查、具体 bug 修复与纯格式化不走此流程。触发词：全面review、代码质量审查、代码库审查、复用、重复代码、模块拆分、架构审查、codebase audit。
 metadata:
-  version: "0.0.1"
+  version: "0.1.0"
 ---
 
 # 代码库质量审查与安全重构
@@ -55,6 +55,8 @@ $ARGUMENTS
 读取 `references/review-rubric.md`，按审查轴输出 P0–P3 问题清单。
 
 需要独立审查视角时，读取 `references/roles/auditor.md` 并由通用子 Agent 执行；范围、快照和最终交付仍由主流程负责。
+
+需要复核已报问题时，读取 `references/roles/finding-verifier.md` 并由通用子 Agent 执行；宿主有同名原生 Agent 时优先使用。复核只读，只处理已报条目，默认覆盖 P0/P1 或高影响项，不新增发现，范围与最终交付仍由主流程负责。
 
 ### 步骤 3：边界与复用判断（只读）
 

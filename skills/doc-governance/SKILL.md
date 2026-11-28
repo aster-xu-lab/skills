@@ -2,7 +2,7 @@
 name: doc-governance
 description: 仓库文档的漂移修复、冗余精简与治理体系检查。适用于 README、docs/、AGENTS.md、CLAUDE.md 及宿主规则之间的事实不一致、重复内容与失效引用；默认只读审计，取得授权后按最小改动修复。单个错别字、纯写作润色、代码质量审查不走此流程。触发词：文档治理、文档漂移、文档审计、文档精简、冗余清理、文档一致性、doc governance、docs audit、docs drift
 metadata:
-  version: "0.0.1"
+  version: "0.1.0"
 ---
 
 # 文档治理与精简
@@ -54,6 +54,8 @@ $ARGUMENTS
 ### 步骤 3：冗余、精简与指针检查
 
 使用同一参考的冗余清单与精简判据。删除前先确认该内容确实有唯一权威位置；没有时先建立指针再删。
+
+需要独立复核时，读取 `references/roles/doc-auditor.md` 并由通用子 Agent 执行；宿主有同名原生 Agent 时优先使用。复核只读，修改仍按主流程的授权范围执行。
 
 ### 步骤 4：按授权修改
 
