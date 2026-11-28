@@ -1,9 +1,12 @@
 {
   "schema_version": 3,
   "assets": [
+    "skill:ai-eval-and-cost",
+    "skill:ci-cd-delivery",
     "skill:codebase-quality",
     "skill:commit-history-review",
     "skill:doc-governance",
+    "skill:engineering-writing",
     "skill:hexo-blog-post",
     "skill:skill-config-maintenance"
   ],
@@ -30,7 +33,22 @@
     "skills/skill-config-maintenance/references/config-registry.json": "1705273865a26f25015645ab64376fef7c0bda41b5078b9ee0b8e601eb6fa8bc",
     "skills/skill-config-maintenance/scripts/audit-configs.py": "56854b5155eb1d1e14e3e84815c8e0ff1c5ceaa2797235713c977d0bcfcea34f",
     "skills/codebase-quality/references/roles/finding-verifier.md": "56ee69ca98543cc6bb43e1a93ca7f0335540489a3aa6930f95647508eb6c6274",
-    "skills/doc-governance/references/roles/doc-auditor.md": "54fa3c53b9a96bc67530cab8ecf8dd3f0b46ecc9ba97af07c6f7cfbf109ca598"
+    "skills/doc-governance/references/roles/doc-auditor.md": "54fa3c53b9a96bc67530cab8ecf8dd3f0b46ecc9ba97af07c6f7cfbf109ca598",
+    "skills/ai-eval-and-cost/SKILL.md": "43c8b204d907638490889ffea0bfce4a44120568427f6ad01553d1d2595ae7cd",
+    "skills/ai-eval-and-cost/references/cost-and-quota.md": "0e557fd7239bf0cb0346d71315303d10772ccd12ac316d1d0464c34133a5082a",
+    "skills/ai-eval-and-cost/references/degrade-and-rollback.md": "a8b8c96b3ea3a32db05ea841164a53d52ceae204415fa1bb13981a6c0fbda536",
+    "skills/ai-eval-and-cost/references/eval-design.md": "81af977102f060f0233438645dcb0246c0cf4ad8022a48c74065c0cd308cdf1b",
+    "skills/ai-eval-and-cost/references/java-spring-hooks.md": "d666c615bbf6d655b89e25a9a2e3ccd81c22ae0ab15eaa69f8ec1f9694b1cc3b",
+    "skills/ci-cd-delivery/SKILL.md": "9361245d157974d7f8f9ab5cc5b93bb4b227cc886e3eb1113dcb6b8cdb46c4a8",
+    "skills/ci-cd-delivery/references/artifacts-and-promotion.md": "965d694967e1864ace724127d93cb2919362620330fdc7247b091bdb1ffd0bc2",
+    "skills/ci-cd-delivery/references/java-and-desktop.md": "6dcc67c0a75821f62ea59d16871b3931d40a12dd86c93e5bdd79a0739df5aac7",
+    "skills/ci-cd-delivery/references/pipeline-gates.md": "f4e69eaba0776d10bc2d96f12a554242bb7b2a3ff89d60471d4f7ca56e1adddb",
+    "skills/ci-cd-delivery/references/release-and-rollback.md": "5ab1dd443a8f1cb5a7bcccbc3b3f5a44bf254adf6cfe594669151153c39686d0",
+    "skills/engineering-writing/SKILL.md": "59ec3f3eb9b396579708adeff49d632162c93e757c97169ba7d3761d94ef60b6",
+    "skills/engineering-writing/references/adr-and-decision-log.md": "44e9d5e2022eef947ff50d796b6c3df1a1706877d6813d71fd97a6f78304cfe8",
+    "skills/engineering-writing/references/changelog-and-contracts.md": "929c1882c2a378d556c81592f5f7683a16e6aaafa7500ed5279db4aed1b2c6e5",
+    "skills/engineering-writing/references/design-doc-and-rfc.md": "ab996532199af8256474bcc448c4fc872afe547b4e04f9393acccccd87e493a4",
+    "skills/engineering-writing/references/postmortem-and-runbook.md": "e8933630f4d57bc68018a87dc1fdd198f7406fa86fed7a0ac1aca3af7d929313"
   },
   "files": {
     "skills/hexo-blog-post/SKILL.md": "c67a5ee666121454b1f3e472df4d2f8cb56fc5b8bfac71aeacb837b4ab9731da",
@@ -55,9 +73,28 @@
     "skills/skill-config-maintenance/references/config-registry.json": "1705273865a26f25015645ab64376fef7c0bda41b5078b9ee0b8e601eb6fa8bc",
     "skills/skill-config-maintenance/scripts/audit-configs.py": "56854b5155eb1d1e14e3e84815c8e0ff1c5ceaa2797235713c977d0bcfcea34f",
     "skills/codebase-quality/references/roles/finding-verifier.md": "56ee69ca98543cc6bb43e1a93ca7f0335540489a3aa6930f95647508eb6c6274",
-    "skills/doc-governance/references/roles/doc-auditor.md": "54fa3c53b9a96bc67530cab8ecf8dd3f0b46ecc9ba97af07c6f7cfbf109ca598"
+    "skills/doc-governance/references/roles/doc-auditor.md": "54fa3c53b9a96bc67530cab8ecf8dd3f0b46ecc9ba97af07c6f7cfbf109ca598",
+    "skills/ai-eval-and-cost/SKILL.md": "43c8b204d907638490889ffea0bfce4a44120568427f6ad01553d1d2595ae7cd",
+    "skills/ai-eval-and-cost/references/cost-and-quota.md": "0e557fd7239bf0cb0346d71315303d10772ccd12ac316d1d0464c34133a5082a",
+    "skills/ai-eval-and-cost/references/degrade-and-rollback.md": "a8b8c96b3ea3a32db05ea841164a53d52ceae204415fa1bb13981a6c0fbda536",
+    "skills/ai-eval-and-cost/references/eval-design.md": "81af977102f060f0233438645dcb0246c0cf4ad8022a48c74065c0cd308cdf1b",
+    "skills/ai-eval-and-cost/references/java-spring-hooks.md": "d666c615bbf6d655b89e25a9a2e3ccd81c22ae0ab15eaa69f8ec1f9694b1cc3b",
+    "skills/ci-cd-delivery/SKILL.md": "9361245d157974d7f8f9ab5cc5b93bb4b227cc886e3eb1113dcb6b8cdb46c4a8",
+    "skills/ci-cd-delivery/references/artifacts-and-promotion.md": "965d694967e1864ace724127d93cb2919362620330fdc7247b091bdb1ffd0bc2",
+    "skills/ci-cd-delivery/references/java-and-desktop.md": "6dcc67c0a75821f62ea59d16871b3931d40a12dd86c93e5bdd79a0739df5aac7",
+    "skills/ci-cd-delivery/references/pipeline-gates.md": "f4e69eaba0776d10bc2d96f12a554242bb7b2a3ff89d60471d4f7ca56e1adddb",
+    "skills/ci-cd-delivery/references/release-and-rollback.md": "5ab1dd443a8f1cb5a7bcccbc3b3f5a44bf254adf6cfe594669151153c39686d0",
+    "skills/engineering-writing/SKILL.md": "59ec3f3eb9b396579708adeff49d632162c93e757c97169ba7d3761d94ef60b6",
+    "skills/engineering-writing/references/adr-and-decision-log.md": "44e9d5e2022eef947ff50d796b6c3df1a1706877d6813d71fd97a6f78304cfe8",
+    "skills/engineering-writing/references/changelog-and-contracts.md": "929c1882c2a378d556c81592f5f7683a16e6aaafa7500ed5279db4aed1b2c6e5",
+    "skills/engineering-writing/references/design-doc-and-rfc.md": "ab996532199af8256474bcc448c4fc872afe547b4e04f9393acccccd87e493a4",
+    "skills/engineering-writing/references/postmortem-and-runbook.md": "e8933630f4d57bc68018a87dc1fdd198f7406fa86fed7a0ac1aca3af7d929313"
   },
   "adaptations": [
+    "原创正本；评测用例与夹具不公开",
+    "按 metadata.version 版本化迭代；发现问题时改正本并提升版本",
+    "提炼判断方法，未复制上游 YAML 或命令",
+    "评测用例与夹具不公开",
     "只公开通用审查判据与技术栈适配；评测用例、夹具和运行证据留在私有库",
     "正文引用的上游固定版本与 third-party 登记可能不同，按正文实际链接登记",
     "只公开通用回顾流程、判据与输出模板；评测用例、夹具和运行证据留在私有库",
@@ -65,6 +102,7 @@
     "增量续审配置保存在本机用户级目录，不随 Skill 分发",
     "只公开检查清单与流程；评测用例引用私有夹具，不公开",
     "来源标注已通用化，不含原项目名称与内部路径",
+    "提炼中文工程写作骨架，未复制上游正文",
     "博客目录由使用者提供或从工作区定位",
     "第三方入口不依赖私有资产库",
     "显式调用；默认只读；删除需逐文件确认、先归档并保留备份",
@@ -75,20 +113,29 @@
     "skill:doc-governance": "2bb038f9c0cb6fb16252ac15441e695533fe8124918e9f271d5660b43e385ad6",
     "skill:hexo-blog-post": "cfbdd08344595fa97db8910194efc8c34b4f11a5c161e11906cc5849471b701d",
     "skill:commit-history-review": "38ff2547e219b7a2100a79e76c6cc609dc6ca74f96dbf9ebfdd11373fb7e7dc7",
-    "skill:skill-config-maintenance": "8d43e89de658eb62e39249e4aec299b443e56914fc510e96233a44603afbd55f"
+    "skill:skill-config-maintenance": "8d43e89de658eb62e39249e4aec299b443e56914fc510e96233a44603afbd55f",
+    "skill:ai-eval-and-cost": "7abcaa20eb0a0d770f0e0e752d35c6f156bda2f15c2a967029327cfda0afdaf7",
+    "skill:ci-cd-delivery": "a5caf5c011a965d1c5f23a98a37b1c0efab8cd7965a19aed3cbf06511108d137",
+    "skill:engineering-writing": "20368a5583280e81811919c606b17437a6d4e5f3d708046fdcbdd49a16e837be"
   },
   "reviews": {
     "skill:codebase-quality": "846562ceed6e740e1ee5711873b345902c3f1733bf693426879fbd7fa41e407c",
     "skill:doc-governance": "770d76604ed0abe67f0f6f93111aa6fd188dd0ed424de811416ec07934db079b",
     "skill:hexo-blog-post": "2e7dfa73c5b126fe20335b3c21bd01a0ac3a25d7ed1a80ec1015daa3cf9bb28a",
     "skill:commit-history-review": "cd692943c1280881c5bf5ce0120a74f0dff64d068ac8d8c3bddd9f983ca5aadd",
-    "skill:skill-config-maintenance": "04a99b26c27d9c51c4813eef25cecd23db4db0a767866531394fe92a9210ca8e"
+    "skill:skill-config-maintenance": "04a99b26c27d9c51c4813eef25cecd23db4db0a767866531394fe92a9210ca8e",
+    "skill:ai-eval-and-cost": "cba2fbb55d607b5c7efaf3bc75b87858c080a7965726e3a815af95374a32b141",
+    "skill:ci-cd-delivery": "3038423481ae90bbc962ac702d7264cf2f9b5f37559544d0c9681d27db7ab3d6",
+    "skill:engineering-writing": "ad2cb14e489ceba46c5d47431d6b5b191f7869eb64ae00e3a38ca8d8b9010d14"
   },
   "versions": {
     "skill:codebase-quality": "0.1.0",
     "skill:commit-history-review": "0.0.1",
     "skill:doc-governance": "0.1.0",
     "skill:hexo-blog-post": "0.0.2",
-    "skill:skill-config-maintenance": "0.0.1"
+    "skill:skill-config-maintenance": "0.0.1",
+    "skill:ai-eval-and-cost": "0.1.0",
+    "skill:ci-cd-delivery": "0.1.0",
+    "skill:engineering-writing": "0.1.0"
   }
 }

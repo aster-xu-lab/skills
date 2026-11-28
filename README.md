@@ -11,10 +11,13 @@
 | [doc-governance](skills/doc-governance/SKILL.md) | 文档漂移修复、冗余精简与文档索引、权威边界检查 | 已有文档体系的目标项目；无额外运行环境 |
 | [commit-history-review](skills/commit-history-review/SKILL.md) | 已提交 Git 历史的窗口、增量与单提交回顾；输出质量评估、启示与延伸动作 | 目标仓库的 Git 历史；只读审查不需要额外环境 |
 | [skill-config-maintenance](skills/skill-config-maintenance/SKILL.md) | 审计并安全清理公开分发 Skill 的外置配置；显式调用、默认只读，删除需归档与确认 | 目标机器有 `aster-xu-lab` 配置目录；无额外运行环境 |
+| [ai-eval-and-cost](skills/ai-eval-and-cost/SKILL.md) | LLM 功能的评测集、基线、回归门禁、token 成本归因、租户配额与降级回退 | 目标项目有 AI 调用链与可运行的评测环境；成本口径以实际账单与 SDK 为准 |
+| [ci-cd-delivery](skills/ci-cd-delivery/SKILL.md) | CI/CD 质量门禁、制品不可变、环境晋级、灰度与回滚 | 目标项目已有构建与发布链；不替代具体 CI 厂商配置 |
+| [engineering-writing](skills/engineering-writing/SKILL.md) | 设计文档、RFC、ADR、事故复盘、runbook、变更日志与契约文档的骨架与规则 | 已有或新建文档目录；按授权写入指定文件 |
 
 Skill 不包含本机路径。博客 Skill 使用时提供实际博客目录，或在已有博客工作区调用；站点定位可保存在本机用户级配置（`~/.config/aster-xu-lab/hexo-blog-post.json`，Windows 为 `%APPDATA%\aster-xu-lab\hexo-blog-post.json`），该配置不随 Skill 分发。文章格式、分类、配图与部署目标由站点约定决定。写作请求不自动授权源码推送、图床上传或公网部署。
 
-审查与文档治理 Skill 默认只读：前者输出带证据的问题清单，后者区分「已确认漂移」与「待确认缺口」。提交历史回顾同样只读，输出审查快照、逐提交发现、启示与延伸动作，不自动修复或提交。配置维护 Skill 也默认只读，删除必须逐文件确认并先归档。四者在用户明确授权后才修改，且保留原验证基线与已有编辑。
+审查与文档治理 Skill 默认只读：前者输出带证据的问题清单，后者区分「已确认漂移」与「待确认缺口」。提交历史回顾同样只读，输出审查快照、逐提交发现、启示与延伸动作，不自动修复或提交。配置维护 Skill 也默认只读，删除必须逐文件确认并先归档。四者在用户明确授权后才修改，且保留原验证基线与已有编辑。`engineering-writing` 是写作类 Skill，只在用户指定的文档路径创建或修改文件，不改既有业务代码。
 
 ## 配置管理
 
@@ -50,11 +53,14 @@ Skill 采用标准 `SKILL.md` 目录格式，可放入宿主的 Skill 目录（�
 - `doc-governance` 提炼自个人文档治理实践，来源标注已通用化，不包含原项目名称与内部路径。漂移结论与修复方案可委派内置的 doc-auditor 角色独立复核。
 - `commit-history-review` 提炼自个人提交审查实践，并参考 Matt Pocock、Superpowers、Addy Osmani 与 ECC 的固定版本；只提炼回顾流程与判断方法，不继承自动修复、自动提交或多 Agent 编排。上游均为 MIT 许可。
 - `skill-config-maintenance` 提炼自个人分发 Skill 的配置维护实践；只读取本机 `aster-xu-lab` 配置目录与注册表，不包含私有资产库路径或业务配置。
+- `ai-eval-and-cost` 由 AsterXu Lab 维护；面向 LLM 功能的评测、成本归因、配额与降级回退，不绑定具体模型厂商或评测框架。
+- `ci-cd-delivery` 提炼自 Addy Osmani 与 Superpowers 的固定版本；只提炼门禁、制品、晋级与回滚的判断方法，不复制上游 YAML 或命令。上游均为 MIT 许可。
+- `engineering-writing` 提炼自 riekelt/technical-writer 的固定版本；只提炼中文工程写作骨架与规则，不复制上游正文。上游为 MIT 许可。
 
 ## 许可证
 
-`codebase-quality`、`doc-governance`、`commit-history-review` 与 `skill-config-maintenance` 以 MIT 许可发布。`hexo-blog-post` 尚未指定开放源代码许可证，公开可读不代表授权第三方再分发。
+`codebase-quality`、`doc-governance`、`commit-history-review`、`skill-config-maintenance`、`ai-eval-and-cost`、`ci-cd-delivery` 与 `engineering-writing` 以 MIT 许可发布。`hexo-blog-post` 尚未指定开放源代码许可证，公开可读不代表授权第三方再分发。
 
 ## 验证边界
 
-已完成公开内容适配和结构、引用检查；代码审查、文档治理、提交历史回顾、配置审计与删除流程在真实项目中的效果、宿主自动路由与跨宿主行为尚未验证。配置维护在真实用户配置目录、Windows、dotfiles 软链与 Skill 管理工具的安装副本上尚未验证。
+已完成公开内容适配和结构、引用检查；代码审查、文档治理、提交历史回顾、配置审计与删除流程在真实项目中的效果、宿主自动路由与跨宿主行为尚未验证。配置维护在真实用户配置目录、Windows、dotfiles 软链与 Skill 管理工具的安装副本上尚未验证。`ai-eval-and-cost`、`ci-cd-delivery` 与 `engineering-writing` 尚未完成固定任务对照演练；公开包不含评测用例与夹具，后续以 `metadata.version` 迭代。
